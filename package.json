@@ -1,0 +1,29 @@
+{
+  "name": "gulp-v4-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rm -rf ./node_modules && npm install",
+    "gulp": "gulp",
+    "build": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "connect-modrewrite": "^0.9.0",
+    "del": "^2.2.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-ejs": "^2.1.2",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.3.2",
+    "ts-loader": "^0.8.2",
+    "tsconfig-cli": "^2.0.0",
+    "typescript": "^2.0.0-dev.20160705",
+    "webpack": "^1.12.10"
+  }
+}
